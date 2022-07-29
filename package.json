@@ -1,0 +1,20 @@
+{
+  "name": "vue-ws-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "2.0.0",
+    "koa-bodyparser": "3.2.0",
+    "koa-router": "7.0.0",
+    "koa2-cors": "^2.0.6",
+    "ws": "1.1.1"
+  }
+}
